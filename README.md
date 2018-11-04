@@ -28,3 +28,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 # todos-dragula
 Angular 6 app called "todos", using dragula for drag-n-drop and deployed to heroku
+Great tutorial on how to deploy Angular 6 app to heroku: https://pcodertech.firebaseapp.com/blog/5b1663a430a36d00147e1a82
