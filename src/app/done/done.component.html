@@ -1,0 +1,4 @@
+<div class="todo-col" id="done" dragula="TODO">
+  <h2>Done</h2>
+  <div class="todo" *ngFor="let task of getDoneTasks()" id="{{task.id}}">{{task.title}}</div>
+</div>

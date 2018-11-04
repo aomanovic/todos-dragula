@@ -1,0 +1,5 @@
+<div class="todo-col" id="todo" dragula="TODO">
+  <h2>Todo</h2>
+  <!-- add todos here -->
+  <div class="todo" *ngFor="let todo of getTodos()" id="{{todo.id}}">{{todo.title}}</div>
+</div>

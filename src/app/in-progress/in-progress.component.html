@@ -1,0 +1,4 @@
+<div class="todo-col" id="in-progress" dragula="TODO">
+  <h2>In-Progress</h2>
+  <div class="todo" *ngFor="let task of getInProgressTasks()" id="{{task.id}}">{{task.title}}</div>
+</div>
